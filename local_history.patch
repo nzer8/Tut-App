@@ -1,0 +1,25 @@
+Index: lib/presentation/features/login_view/viewmodel/login_viewmodel.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart b/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart
+--- a/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart	
++++ b/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart	(date 1705779647286)
+@@ -45,12 +45,12 @@
+ 
+   ///todo-------------> Outputs
+   @override
+-  Stream<bool> get outIsPasswordValid =>
+-      _passwordStreamController.stream.map((password) => _isPasswordValid(password));
++  Stream<bool> get outIsPasswordValid => _passwordStreamController.stream
++      .map((password) => _isPasswordValid(password));
+ 
+   @override
+-  Stream<bool> get outIsUserNameValid =>
+-      _userNameStreamController.stream.map((userName) => _isUserNameValid(userName));
++  Stream<bool> get outIsUserNameValid => _userNameStreamController.stream
++      .map((userName) => _isUserNameValid(userName));
+ 
+   bool _isPasswordValid(String password) => password.isNotEmpty;
+   bool _isUserNameValid(String userName) => userName.isNotEmpty;
