@@ -7,7 +7,7 @@ import 'package:tut_app/presentation/resources/string_manger.dart';
 
 import '../../../resources/app_router.dart';
 import '../../../resources/color_manger.dart';
-import '../view_model/onboarding_view_model.dart';
+import '../viewmodel/onboarding_view_model.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({Key? key}) : super(key: key);
