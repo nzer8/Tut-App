@@ -33,12 +33,11 @@ class _AppServiceClient implements AppServiceClient {
       'password': password,
     };
     final _result = await _dio.fetch<Map<String, dynamic>>(
-      _setStreamType<AuthenticationResponse>(
-        Options(
-          method: 'POST',
-          headers: _headers,
-          extra: _extra,
-        )
+        _setStreamType<AuthenticationResponse>(Options(
+      method: 'POST',
+      headers: _headers,
+      extra: _extra,
+    )
             .compose(
               _dio.options,
               '/customers/login',
@@ -46,13 +45,10 @@ class _AppServiceClient implements AppServiceClient {
               data: _data,
             )
             .copyWith(
-              baseUrl: _combineBaseUrls(
-                _dio.options.baseUrl,
-                baseUrl,
-              ),
-            ),
-      ),
-    );
+                baseUrl: _combineBaseUrls(
+              _dio.options.baseUrl,
+              baseUrl,
+            ))));
     final value = AuthenticationResponse.fromJson(_result.data!);
     return value;
   }
