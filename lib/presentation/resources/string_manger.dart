@@ -1,5 +1,5 @@
 class AppString {
-  ///Todo  OnBoarding String
+  ///Todo  OnBoarding Strings
   static String onBoardingTitle1 = 'SEE THE BEST COURSE #1';
   static String onBoardingTitle2 = 'SEE THE BEST COURSE #2';
   static String onBoardingTitle3 = 'SEE THE BEST COURSE #3';
@@ -15,6 +15,15 @@ class AppString {
       'Tut app is an awesome flutter application using clean architecture #4';
   static String skip = 'Skip';
   static const String success = "success";
+
+  ///Todo  Login Strings
+  static String userName = 'User Name';
+  static String password = 'Password';
+  static String login = 'Login';
+  static String forgetPassword = 'Forget password';
+  static String notMember = 'Not a member ? Sign up';
+  static String userNameError = 'Please Enter Your User Name';
+  static String passwordError = 'Please Enter Your Password';
 
   // error handler
   static const String badRequestError = "bad_request_error";

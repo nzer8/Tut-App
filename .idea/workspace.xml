@@ -12,15 +12,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="662344ad-c9d4-4ec0-88d0-405499bef330" name="Default Changelist" comment="make view model to login screen">
-      <change afterPath="$PROJECT_DIR$/lib/presentation/features/common/freezed_data_classes.dart" afterDir="false" />
+    <list default="true" id="662344ad-c9d4-4ec0-88d0-405499bef330" name="Default Changelist" comment="add freezed class and build file auto generate">
+      <change afterPath="$PROJECT_DIR$/lib/app/di.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/features/forget_password/view/forget_password_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_text_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_text_field.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/bin/build_runner/build_runner.dart-3.1.0.snapshot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/network/app_api.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/network/app_api.g.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/response/responses.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/response/responses.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/features/login_view/view/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/features/login_view/view/login_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/app_router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/string_manger.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/string_manger.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/styles.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/theme_manger.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/theme_manger.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -114,25 +123,25 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/tut_app&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/tut_app/lib/presentation/features/forget_password&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;device.mirroring&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tut_app\lib\presentation\features\forget_password" />
       <recent name="E:\tut_app\lib\presentation\features" />
       <recent name="E:\tut_app\assets\images\4.0x" />
       <recent name="E:\tut_app\assets\images\3.0x" />
       <recent name="E:\tut_app\assets\images\2.0x" />
-      <recent name="E:\tut_app\assets\images\1.5x" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\tut_app\lib\presentation\widgets" />
       <recent name="E:\tut_app\lib\presentation\features\login_view\view" />
       <recent name="E:\tut_app\lib\data\network" />
       <recent name="E:\tut_app\lib\domain\model" />
       <recent name="E:\tut_app\lib\data\response" />
-      <recent name="E:\tut_app\lib\presentation\features\on_boarding_view\veiw" />
     </key>
   </component>
   <component name="RunManager">
@@ -177,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705869908284</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add freezed class and build file auto generate">
+      <option name="closed" value="true" />
+      <created>1706003362368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706003362369</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add freezed class and build file auto generate">
+      <option name="closed" value="true" />
+      <created>1706003436892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706003436892</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -310,6 +335,7 @@
       <path value="$PROJECT_DIR$/Movies-and-Tvs" />
     </ignored-roots>
     <MESSAGE value="make view model to login screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="make view model to login screen" />
+    <MESSAGE value="add freezed class and build file auto generate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add freezed class and build file auto generate" />
   </component>
 </project>

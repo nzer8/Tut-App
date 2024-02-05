@@ -11,7 +11,6 @@ ThemeData getApplicationTheme() {
     primaryColorDark: ColorManger.darkPrimary,
     disabledColor: ColorManger.grey1,
     splashColor: ColorManger.lightPrimary,
-
     // CardView Theme
     cardTheme: CardTheme(
       color: ColorManger.white,
@@ -60,12 +59,14 @@ ThemeData getApplicationTheme() {
         color: ColorManger.grey1,
       ),
     ),
+
     // input decoration theme (Text Form Field)
     inputDecorationTheme: InputDecorationTheme(
       contentPadding: const EdgeInsets.all(8),
       hintStyle: Styles.textStyle14.copyWith(
         fontWeight: FontWeight.w400,
         color: ColorManger.grey,
+        fontSize: 14,
       ),
       labelStyle: Styles.textStyle14.copyWith(
         color: ColorManger.grey,
@@ -73,14 +74,14 @@ ThemeData getApplicationTheme() {
       errorStyle: TextStyle(color: ColorManger.error),
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(
-          color: ColorManger.primaryColor,
+          color: ColorManger.grey,
           width: 2,
         ),
         borderRadius: BorderRadius.circular(8),
       ),
       focusedBorder: OutlineInputBorder(
         borderSide: BorderSide(
-          color: ColorManger.grey,
+          color: ColorManger.primaryColor,
           width: 2,
         ),
         borderRadius: BorderRadius.circular(8),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tut_app/presentation/resources/theme_manger.dart';
 
 import '../presentation/resources/app_router.dart';
 
@@ -14,9 +15,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      theme: ThemeData(
-        fontFamily: 'Montserrat',
-      ),
+      theme: getApplicationTheme(),
       debugShowCheckedModeBanner: false,
       routerConfig: AppRouter.router,
     );
