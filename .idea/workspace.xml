@@ -12,26 +12,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="662344ad-c9d4-4ec0-88d0-405499bef330" name="Default Changelist" comment="add freezed class and build file auto generate">
-      <change afterPath="$PROJECT_DIR$/lib/app/di.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/features/forget_password/view/forget_password_view.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_text_button.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/presentation/widgets/custom_text_field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/bin/build_runner/build_runner.dart-3.1.0.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+    <list default="true" id="662344ad-c9d4-4ec0-88d0-405499bef330" name="Default Changelist" comment="build Dependency injection file and use DI in login screen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/features/login_view/view/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/features/login_view/view/login_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/features/login_view/viewmodel/login_viewmodel.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/app_router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/string_manger.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/string_manger.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/styles.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/resources/theme_manger.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/resources/theme_manger.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706003436892</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="build Dependency injection file and use DI in login screen.">
+      <option name="closed" value="true" />
+      <created>1707141430445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707141430445</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -336,6 +326,7 @@
     </ignored-roots>
     <MESSAGE value="make view model to login screen" />
     <MESSAGE value="add freezed class and build file auto generate" />
-    <option name="LAST_COMMIT_MESSAGE" value="add freezed class and build file auto generate" />
+    <MESSAGE value="build Dependency injection file and use DI in login screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="build Dependency injection file and use DI in login screen." />
   </component>
 </project>
