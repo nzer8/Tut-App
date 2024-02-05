@@ -1,0 +1,4 @@
+#Mon Jan 29 12:11:35 EET 2024
+base.0=E\:\\tut_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
