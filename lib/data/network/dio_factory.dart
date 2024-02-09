@@ -46,7 +46,6 @@ class DioFactory {
         ),
       );
     }
-
     return dio;
   }
 }

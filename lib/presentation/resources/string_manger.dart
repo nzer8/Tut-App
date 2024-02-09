@@ -38,4 +38,7 @@ class AppString {
   static const String defaultError = "default_error";
   static const String cacheError = "cache_error";
   static const String noInternetError = "no_internet_error";
+
+  // state string
+  static const String loading = 'Loading...';
 }
